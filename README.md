@@ -1,6 +1,6 @@
 # DMML2021_Microsoft
 
-Team name: Microsoft
+Team name: UNIL_Microsoft
 
 Participants: Katelyn Bonner, Ahmed Farhat
 
