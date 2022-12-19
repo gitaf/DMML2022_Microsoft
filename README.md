@@ -4,7 +4,7 @@ Team name: UNIL_Microsoft
 
 Participants: Katelyn Bonner, Ahmed Farhat
 
-Description:
+Description: Our project is about buuilding a model that tries to predict the difficulty (from A1 to C2) of a French written text.
 
 Our approach:
 
