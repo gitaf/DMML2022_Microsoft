@@ -1,4 +1,4 @@
-# DMML2021_Microsoft
+# DMML2021
 
 Team name: UNIL_Microsoft
 
