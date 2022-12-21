@@ -1,4 +1,4 @@
-# DMML2021
+# Data Mining & Machine Learning 2021
 
 Team name: UNIL_Microsoft
 
