@@ -6,10 +6,9 @@ Participants: Katelyn Bonner, Ahmed Farhat
 
 Description: 
 Finding text close to someone's knowledge level is quite hard. 
-This issue raises the need to create a software tool that predicts a user's academic level 
-in a certain language and recommends articles/readings based on it.  
-In order to solve this problem, we decided to build a model that tries to predict 
-the difficulty (from A1 to C2) of a French written text.
+This issue raises the need to create a software tool that predicts a user's academic level in a certain language and recommends articles/readings based on it. 
+In order to solve this problem, we decided to build a model that tries to predict the difficulty (from A1 to C2) of a French written text.
+At the end, the deliverable will be a Github project repository, where one can find the code for different models we tried.
 
 Our approach:
 First, we have tested the models presented in the guidlines. The logistic regression model proved to be the hughest performing one.
@@ -17,5 +16,10 @@ We then proceeded by applying some data augmenatation (stop words, ...) <Consequ
 Finally, we decided to go with a pretrained model called CamemBert found on huggingface, which finally gave us our best score.
 
 Results table summary:
+| Logistic Regression | 123123 |   |   |   |
+|---------------------|--------|---|---|---|
+| ha                  | 12312  |   |   |   |
+| ha                  | 123123 |   |   |   |
+| ba                  | 123123 |   |   |   |
 
 Explainatory video link:
