@@ -16,10 +16,13 @@ We then proceeded by applying some data augmenatation (stop words, ...) <Consequ
 Finally, we decided to go with a pretrained model called CamemBert found on huggingface, which finally gave us our best score.
 
 Results table summary:
-| Logistic Regression | 123123 |   |   |   |
-|---------------------|--------|---|---|---|
-| ha                  | 12312  |   |   |   |
-| ha                  | 123123 |   |   |   |
-| ba                  | 123123 |   |   |   |
+
+| \\\       | Logistic Regression | KNN        | Decision Tree | Random Forests | Logistic Regression + Data Augmentation | CamemBert Model |
+|-----------|---------------------|:----------:|---------------|----------------|-----------------------------------------|-----------------|
+| Precision | 0.4863              | 0.4461     | 0.3241        | 0.3655         |                                         |                 |
+| Recall    | 0.4854              | 0.4292     | 0.3208        | 0.3740         |                                         |                 |
+| F1-Score  | 0.4832              | 0.4117     | 0.3161        | 0.3334         |                                         |                 |
+| Accuracy  | 0.4854              | 0.4292     | 0.3208        | 0.3740         |                                         |                 |
+
 
 Explainatory video link:
