@@ -20,7 +20,7 @@ Data Augmentation:
 
 We then proceeded by applying some data augmenatation including: entity recognition and count, part of speech recognition and count, the number of words per sentence, average word length, number of stop words per sentence, and the share of stop words in order to add features that may indicate the difficulty of the text. Additionally, we removed stop words and punctuation and converted all words to lowercase. We also tried lemmatizing the words but found that the model performed worse with this which made sense to us given a particular verb conjugation ending can provide evidence to the level of difficulty of the text. After augmenting the data, we then created a bag of words dataframe using the count vectorizer. Finally, we used an ensemble classifier with a decision tree, logistic, knn, and random forest model. 
 
-Pre-trained Model: 
+Pre-trained Model 💎 :
 
 Finally, we decided to try a pretrained model. We searched hugging face’s database of pre-trained models and found the CamemBERT model which is a french version of the BERT model. We use the CamemBERT model with the sequence classification head. This model gave us the best results and so we trained the model on our full data set giving us an accuracy of 60.4% on the unseen data.
 
