@@ -1,4 +1,4 @@
-# Data Mining & Machine Learning 2021
+# Data Mining & Machine Learning 2022
 
 Team name: UNIL_Microsoft
 
