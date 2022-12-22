@@ -14,7 +14,7 @@ Our approach:
 
 Basic models: 
 
-First, we have tested the models presented in the guidlines. The logistic regression model proved to be the hughest performing one.
+First, we have tested the models presented in the guidlines. The logistic regression model proved to be the highest performing one.
 
 Data Augmentation: 
 
