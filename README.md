@@ -26,11 +26,11 @@ Finally, we decided to try a pretrained model. We searched hugging face’s data
 
 Results table summary:
 
-|           | Logistic Regression | KNN        | Decision Tree | Random Forests | Logistic Regression + Data Augmentation | CamemBert Model |
-|-----------|---------------------|:----------:|---------------|----------------|-----------------------------------------|-----------------|
-| Precision | 0.4863              | 0.4461     | 0.3241        | 0.3655         |                                         |                 |
-| Recall    | 0.4854              | 0.4292     | 0.3208        | 0.3740         |                                         |                 |
-| F1-Score  | 0.4832              | 0.4117     | 0.3161        | 0.3334         |                                         |                 |
-| Accuracy  | 0.4854              | 0.4292     | 0.3208        | 0.3740         |                                         |                 |
+|           | Logistic Regression | KNN        | Decision Tree | Random Forests | Ensemble + Data Augmentation | CamemBert Model |
+|-----------|---------------------|:----------:|---------------|----------------|------------------------------|-----------------|
+| Precision | 0.4865              | 0.4037     | 0.3464        | 0.3886         | 0.4215                       | 0.598524        |
+| Recall    | 0.4854              | 0.3990     | 0.3396        | 0.3969         | 0.3000                       | 0.594792        |
+| F1-Score  | 0.4823              | 0.3767     | 0.3305        | 0.3723         | 0.2770                       | 0.595161        |
+| Accuracy  | 0.4854              | 0.3990     | 0.3396        | 0.3969         | 0.3000                       | 0.594792        |
 
 Explainatory video link:
